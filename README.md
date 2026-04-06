@@ -82,5 +82,3 @@ python PingPong.py
 ## 📬 Author
 
 Built as a personal project to practice building real-world Python applications and trackin
-
-Built as a personal project to improve Python and real-world application development.
