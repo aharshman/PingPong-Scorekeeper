@@ -1,6 +1,8 @@
 # 🏓 Ping Pong Scorekeeper
 
-A Python-based ping pong scoreboard and match tracker with a clean UI, fault tracking, and automatic Excel logging.
+A Python app for tracking ping pong games with a clean scoreboard interface and automatic match history stored in Excel.
+
+---
 
 ## 🚀 Features
 
@@ -8,66 +10,77 @@ A Python-based ping pong scoreboard and match tracker with a clean UI, fault tra
 - Fault system (2 faults = opponent point)
 - Custom game length
 - Win-by-2 rule enforcement
-- Match history saved to Excel
-- Simple and clean GUI (Tkinter)
+- Automatic match logging
+- Simple, easy-to-use interface
 
-## 📊 Stats Tracking
+---
 
-Each match records:
+## 📊 Match Data (Excel)
+
+All matches are automatically saved to an Excel file:
+
+**`ping_pong_data.xlsx`**
+
+Each game records:
 - Date
-- Players
+- Player names
 - Final score
 - Winner
 - Game length
-- Fault counts
+- Fault counts for each player
+
+The file is created automatically the first time you run the app, and updates after every completed game.
+
+---
 
 ## 🖥️ Tech Used
 
 - Python
 - Tkinter (GUI)
-- OpenPyXL (Excel logging)
-- Pandas & Matplotlib (for stats viewer)
+- OpenPyXL (Excel handling)
+- Pandas & Matplotlib (stats viewer)
 
-## ▶️ How to Run
+---
 
-1. Clone the repo:
+## ▶️ How to Run (Windows)
 
-git clone https://github.com/YOUR_USERNAME/PingPong-Scorekeeper.git
+1. Download this repository as a ZIP file and extract it.
 
-cd PingPong-Scorekeeper
+2. Open the folder in Command Prompt.
 
+3. Install required packages:
 
-2. Create virtual environment:
-
-python3 -m venv venv
-source venv/bin/activate
-
-
-3. Install dependencies:
 
 pip install -r requirements.txt
 
 
 4. Run the app:
 
-python3 PingPong.py
 
+python PingPong.py
+
+
+---
 
 ## 📌 Notes
 
 - Default game is played to 15
-- Must win by 2 points
-- Data is stored in `ping_pong_data.xlsx`
+- Games must be won by 2 points
+- Match data is saved automatically after each game
+
+---
 
 ## 💡 Future Improvements
 
 - Player statistics dashboard
 - Match filtering
-- Undo button
-- Enhanced UI/UX
+- Undo last action
+- UI improvements
 
 ---
 
 ## 📬 Author
+
+Built as a personal project to practice building real-world Python applications and trackin
 
 Built as a personal project to improve Python and real-world application development.
