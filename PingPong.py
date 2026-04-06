@@ -242,7 +242,7 @@ Button(faults_frame2, text="-1", command=lambda: subtract_fault(2), font=font_sm
 Button(game_frame, text="NEW GAME", command=reset_game, font=font_med, bg="orange").pack(side=BOTTOM, pady=20)
 
 # --- Dummy players ---
-players = ["Alex", "Craig", "Gannon"]
+players = ["Player 1", "Player 2", "Player 3"]
 player1_menu['values'] = players
 player2_menu['values'] = players
 
